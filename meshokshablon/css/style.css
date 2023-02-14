@@ -1,0 +1,154 @@
+/*
+ * main
+ */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-size: 100%;
+  color: #000;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+a {
+  color: var(--main-color);
+  transition: filter .3s ease;
+}
+a:hover {
+  color: var(--main-color);
+  filter: saturate(2);
+}
+
+/* section */
+.section {
+  padding: 60px 0;
+}
+
+.section-color {
+  background-color: var(--main-bg-color);
+}
+/* end section */
+
+/* buttons */
+.btn.btn-main {
+  min-width: 200px;
+  border-radius: 50px;
+  background: var(--main-color);
+  color: #fff;
+  font-weight: 700;
+  transition: filter .3s ease;
+}
+.btn.btn-main:hover {
+  filter: saturate(1.4);
+}
+/* end buttons */
+
+h1 {
+  font-weight: 900;
+}
+h2,
+h3 {
+  font-weight: 700;
+}
+p {
+  margin-bottom: 0;
+  line-height: 1.8;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*
+ * style
+ */
+
+/* wrapper */
+#wrapper {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* end wrapper */
+
+/* header */
+.header__logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+.header__logo a {
+  text-decoration: none;
+  color: inherit;
+}
+/* end header */
+
+/* gradients */
+.section-gradient {
+  /* background: #ffa7e7;
+  background: -webkit-gradient(linear, left bottom, right top, from(#ffa7e7), color-stop(50%, #b3e8ff), to(#e5eff2));
+  background: linear-gradient(left bottom, #ffa7e7 0%, #b3e8ff 50%, #e5eff2 100%);
+  background: url('../images/federica-galli-xhzcnsqphq-unsplash.jpg') no-repeat center;
+  background-size: cover; */
+}
+/* end gradients */
+
+/* list */
+.section ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.section ul li {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.section ul i {
+  margin: 0 14px 0 0;
+  color: #c55c66;
+}
+/* end list */
+
+/* fa */
+.fas {
+  margin: 10px 15px;
+  color: #8e9fc9;
+  font-size: 30px;
+}
+
+/* form */
+.form p {
+  font-size: 26px;
+}
+.form__old-price {
+  text-decoration: line-through;
+}
+/* end form */
+
+/* footer */
+.footer {
+  padding: 60px 0;
+  background-color: #292929;
+}
+.footer p {
+  color: #7b7b7b;
+}
+.thanks {
+  padding: 180px 0;
+}
+/* end footer */
+
+/* policy */
+.policy h2 {
+  margin: 0 0 24px;
+  font-size: 24px;
+}
+.policy h3 {
+  margin: 20px 0 10px;
+  font-size: 18px;
+}
+.policy p {
+  margin: 0 0 14px;
+  font-size: 14px;
+}
+/* end policy */
